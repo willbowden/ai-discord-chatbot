@@ -27,5 +27,5 @@ def ReadToRaw(filename):
 def WriteRaw(filename, data):
     filename = config.DATA_FILEPATH + filename
     f = open(filename, "w")
-    decoded = json.dumps(data)
+    f.write(json.dumps(data))
     f.close()
