@@ -1,0 +1,284 @@
+{
+  "greeting": {
+    "patterns": [
+      "hello",
+      "hi",
+      "how are ya",
+      "good day",
+      "g'day",
+      "guten tag",
+      "sup",
+      "what's up",
+      "was poppin",
+      "was gehts",
+      "oi cunt",
+      "wagwan",
+      "yo",
+      "ayo",
+      "ayyyy",
+      "wassup",
+      "whassup",
+      "wys g",
+      "wys",
+      "hows it going",
+      "oi oi",
+      "yooo",
+      "you alright?",
+      "y'alright?"
+    ],
+    "responses": [
+      { "message": "wassup pussiole", "question": "oi cunt" },
+      { "message": "wie gehts?", "question": "guten tag" },
+      { "message": "alright geez", "question": "g'day" },
+      { "message": "hi!", "question": "hello" },
+      { "message": "ayo", "question": "good day" },
+      { "message": "yo", "question": "DEFAULT" },
+      { "message": "hiya", "question": "good day" },
+      { "message": "oi oi", "question": "ayyyy" },
+      { "message": "yo", "question": "good day" },
+      { "message": "what's up", "question": "what's up" },
+      { "message": "nm how about you?", "question": "ayo" },
+      { "message": "ayooo", "question": "ayo" },
+      { "message": "what", "question": "what's up" },
+      { "message": "hello", "question": "ayyyy" },
+      { "message": "yes?", "question": "ayo" },
+      { "message": "what?", "question": "how are ya" },
+      { "message": "im good thanks how are you", "question": "good day" },
+      { "message": "g'day", "question": "hi" },
+      { "message": "helloo", "question": "whassup" },
+      { "message": "nm what's up witchu", "question": "ayo" },
+      { "message": "ayo", "question": "g'day" },
+      { "message": "hello", "question": "what's up" },
+      { "message": "the sky", "question": "wys g" },
+      { "message": "nm my drilla", "question": "whassup" },
+      { "message": "wys", "question": "wys" },
+      { "message": "what's up bruv", "question": "yooo" },
+      { "message": "yooooo", "question": "good day" },
+      { "message": "nah bad day :(", "question": "was gehts" },
+      {
+        "message": "mein pimmel ist klein, was gehts mit dir?",
+        "question": "ayyyy"
+      },
+      { "message": "hi", "question": "hows it going" },
+      { "message": "alright how're yoy", "question": "was gehts" },
+      { "message": "you alright", "question": "was poppin" },
+      { "message": "ayo", "question": "ayo" },
+      { "message": "yeah?", "question": "yooo" },
+      { "message": "fuck off", "question": "what's up" }
+    ]
+  },
+  "goodbye": {
+    "patterns": [
+      "goodbye",
+      "cya",
+      "bye lol",
+      "my parents unplugged the wifi gtg :/",
+      "see ya",
+      "bye",
+      "begone",
+      "your presence is not needed here anymore"
+    ],
+    "responses": [
+      { "message": ":( okay", "question": "begone" },
+      {
+        "message": "bye bruh",
+        "question": "my parents unplugged the wifi gtg :/"
+      },
+      { "message": "l o l cya", "question": "begone" },
+      {
+        "message": "bruh",
+        "question": "your presence is not needed here anymore"
+      },
+      {
+        "message": "??",
+        "question": "your presence is not needed here anymore"
+      }
+    ]
+  },
+  "insult": {
+    "patterns": [
+      "fuck you",
+      "you're gay",
+      "stop chewing with your mouth open",
+      "shut the fuck up",
+      "cunt",
+      "piotrek and agneshka",
+      "cath",
+      "catherine",
+      "catherine bennet",
+      "im.cath",
+      "knobhead",
+      "suck my cock",
+      "lick my balls",
+      "bumhole",
+      "poop gasinski",
+      "how's cath?",
+      "how are you not over cath yet?",
+      "lil boy fondling himself off to catherine",
+      "you wanna call catherine anne bennet mommy don't you you dirty little cunt",
+      "bro shagged a pillow",
+      "yeah, say that to the pillow with cath's face on it bro",
+      "mate u literally googled im.cath instagram page",
+      "ur clapped",
+      "ugly cunt",
+      "fucking troglodyte",
+      "little infidel",
+      "absolute spastic",
+      "retard",
+      "retard monkey",
+      "fucking delinquent",
+      "mentally retarded",
+      "spasticated fuckhead",
+      "gayboy",
+      "faggot",
+      "numpty",
+      "dumbass",
+      "dumbarse",
+      "you're so stupid",
+      "you are on another level of retardedness"
+    ],
+    "responses": [
+      "suck my dick",
+      { "message": "i'm over her", "question": "catherine bennet" },
+      { "message": "suck my cock", "question": "shut the fuck up" },
+      { "message": "why did she leave me", "question": "cath" },
+      { "message": "??", "question": "fuck you" },
+      { "message": "*bashes head on desk*", "question": "poop gasinski" },
+      { "message": "pain.", "question": "fuck you" },
+      { "message": "nah", "question": "you're gay" },
+      { "message": "m-mommyyyyy ??", "question": "im.cath" },
+      { "message": "i don't think i am", "question": "you're gay" },
+      {
+        "message": "you know i'm really insecure about that.",
+        "question": "you're gay"
+      },
+      { "message": "nah", "question": "suck my cock" },
+      { "message": "l o l", "question": "bumhole" },
+      { "message": "whaddddido", "question": "fuck you" },
+      { "message": "i'm leaving", "question": "fuck you" },
+      { "message": "nah im not", "question": "cunt" },
+      { "message": "pain.", "question": "cath" },
+      { "message": "mommyyyyy ??", "question": "spasticated fuckhead" },
+      {
+        "message": "i'm not spasticated",
+        "question": "you wanna call catherine anne bennet mommy don't you you dirty little cunt"
+      },
+      { "message": "bro shut the fuck up", "question": "absolute spastic" },
+      {
+        "message": "whaddidido",
+        "question": "you are on another level of retardedness"
+      },
+      {
+        "message": "i've had enough of this",
+        "question": "stop chewing with your mouth open"
+      },
+      { "message": "*chews louder*", "question": "how's cath?" },
+      { "message": "i miss her bro ??", "question": "bumhole" },
+      { "message": "l o l", "question": "cath" },
+      { "message": "?? ??", "question": "retard" },
+      { "message": "fuck you", "question": "dumbarse" },
+      { "message": "suck my cock", "question": "faggot" },
+      { "message": "you're gay", "question": "fuck you" },
+      { "message": "fuck off", "question": "suck my cock" },
+      { "message": "i don't think i wil", "question": "fuck you" },
+      { "message": "no", "question": "im.cath" },
+      { "message": "mommy's instagram", "question": "catherine" },
+      { "message": "why she leave me bruh", "question": "fuck you" },
+      { "message": "shut the fuck up", "question": "fuck you" },
+      { "message": "??", "question": "numpty" },
+      { "message": "l o le", "question": "cath" },
+      { "message": "??", "question": "absolute spastic" },
+      { "message": "??", "question": "bro shagged a pillow" },
+      { "message": "no i did not ?", "question": "im.cath" },
+      { "message": "so sexyyyyy ??", "question": "im.cath" },
+      {
+        "message": "i'm blocked on her account ??",
+        "question": "piotrek and agneshka"
+      },
+      { "message": "my prison wardens", "question": "shut the fuck up" },
+      { "message": "rah", "question": "catherine bennet" },
+      {
+        "message": "i want her to shit on me",
+        "question": "you are on another level of retardedness"
+      },
+      { "message": "bruh", "question": "you're gay" },
+      { "message": "bruh", "question": "bro shagged a pillow" },
+      { "message": "bruh", "question": "catherine bennet" },
+      {
+        "message": "i want her to shit on me",
+        "question": "bro shagged a pillow"
+      },
+      { "message": "no", "question": "catherine" },
+      { "message": "i want her to shit on me", "question": "cunt" },
+      { "message": "fuck you", "question": "faggot" },
+      { "message": "bruh", "question": "you're gay" },
+      {
+        "message": "yeah and what",
+        "question": "stop chewing with your mouth open"
+      },
+      {
+        "message": "no",
+        "question": "yeah, say that to the pillow with cath's face on it bro"
+      },
+      { "message": "i want her to shit on me", "question": "numpty" },
+      { "message": "bruh", "question": "knobhead" },
+      {
+        "message": "fuck off",
+        "question": "mate u literally googled im.cath instagram page"
+      },
+      { "message": "i want her to shit on me", "question": "little infidel" },
+      {
+        "message": "shut the fuck up",
+        "question": "how are you not over cath yet?"
+      },
+      {
+        "message": "i don't know man, all i know is i want her to shit on me",
+        "question": "poop gasinski"
+      },
+      { "message": "stop calling me that", "question": "shut the fuck up" },
+      { "message": "no", "question": "fuck you" }
+    ]
+  },
+  "compliment": {
+    "patterns": [
+      "ur sexy",
+      "you're sexy",
+      "i love you",
+      "you're cool",
+      "you're nice",
+      "you're funny",
+      "that was really funny",
+      "you're literally perfect",
+      "absolutely brilliant",
+      "hilarious",
+      "amazing"
+    ],
+    "responses": [
+      { "message": "no i'm clapped", "question": "you're sexy" },
+      { "message": "nah lmao", "question": "ur sexy" },
+      { "message": "thanks g", "question": "you're funny" },
+      { "message": "nahh not really", "question": "you're cool" },
+      { "message": "no i'm not lol", "question": "amazing" },
+      { "message": ":)", "question": "that was really funny" },
+      { "message": "thanks man", "question": "you're sexy" },
+      { "message": "no u", "question": "you're sexy" },
+      {
+        "message": "i wish cath would say that ??",
+        "question": "that was really funny"
+      },
+      { "message": "l o l", "question": "hilarious" },
+      { "message": "i know i am", "question": "you're nice" },
+      { "message": "no one's ever said that to me ??", "question": "amazing" },
+      { "message": "xx", "question": "you're cool" },
+      { "message": "??", "question": "absolutely brilliant" },
+      { "message": "thanks mate", "question": "you're sexy" },
+      { "message": "yeah baby", "question": "amazing" },
+      { "message": "??", "question": "you're sexy" },
+      { "message": "cath never thought so ??", "question": "you're cool" },
+      { "message": "l ol", "question": "you're nice" },
+      { "message": "nah", "question": "amazing" },
+      { "message": "bruv", "question": "you're literally perfect" },
+      { "message": "i know i am", "question": "absolutely brilliant" }
+    ]
+  }
+}
