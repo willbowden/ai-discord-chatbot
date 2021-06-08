@@ -35,7 +35,6 @@ async def execute(env):
     # session.lastcommand = time.time()
 
     async with message.channel.typing():
-        print("ML Model Working...")
         data = [{"message": phrase}]
         sentences = list(map(lambda i: i["message"].lower(), data))
         xPredict = use.embed(sentences)
