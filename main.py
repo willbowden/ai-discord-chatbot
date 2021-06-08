@@ -20,7 +20,8 @@ client.commands = commands
 @client.event
 async def on_ready():
     print(f"{client.user} logged in.")
-    await client.change_presence(activity=discord.Activity(name="Online"))
+    activ = discord.CustomActivity(name="Online")
+    await client.change_presence(activity=activ)
 
 @client.event
 async def on_message(message):
