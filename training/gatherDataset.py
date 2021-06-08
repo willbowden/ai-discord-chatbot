@@ -1,6 +1,6 @@
 import os
-from ..util import wbjson
-from .. import config
+from util import wbjson
+import config
 
 async def gatherDataset(env, channelID,  beforeID, number):
     channel = env.client.get_channel(channelID)
@@ -17,7 +17,8 @@ async def gatherDataset(env, channelID,  beforeID, number):
     
             filteredMessages.append({"response": messages[i].content, "previous": prevMessages})
     
+    print(f"Done. Messages from designated user found: {len(filteredMessages)}")
     return filteredMessages
 
-    print(f"Done. Messages from designated user found: {len(filteredMessages)}")
+
 

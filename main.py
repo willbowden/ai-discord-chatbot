@@ -5,7 +5,7 @@ import config
 import os
 from events import message as messageEvent
 
-load_dotenv()
+load_dotenv("A:\Will\Desktop\Coding\David 2\.env")
 TOKEN = os.getenv("BOT_TOKEN")
 client = discord.Client()
 
@@ -20,7 +20,7 @@ client.commands = commands
 @client.event
 async def on_ready():
     print(f"{client.user} logged in.")
-    client.user.setActivity("Online")
+    await client.change_presence(activity=discord.Activity(name="Online"))
 
 @client.event
 async def on_message(message):

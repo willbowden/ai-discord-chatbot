@@ -1,8 +1,8 @@
 import discord
-from ..util import wbjson
+from util import wbjson
 import config
 import time
-from ..training import gatherDataset
+from training import gatherDataset
 
 names = ["backtrain"]
 async def execute(env):

@@ -21,11 +21,11 @@ async def execute(env):
     if args[1] == "on":
         meta.active = True
         desc = config.BOT_NAME + " is now online."
-        env.client.setActivity("Auto-Mode On")
+        await env.client.change_presence(activity=discord.Activity(name="Auto-Reply On"))
     else:
         meta.active = False
         desc = config.BOT_NAME + " is now offline."
-        env.client.setActivity("Auto-Mode Off")
+        await env.client.change_presence(activity=discord.Activity(name="Auto-Reply Off"))
 
     wbjson.WriteFile("meta.json", meta)
     successEmbed = discord.Embed(title="**SUCCESS**", description=desc)
