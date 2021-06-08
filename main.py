@@ -27,4 +27,12 @@ async def on_ready():
 async def on_message(message):
     await messageEvent.trigger(client, message)
 
+@client.event
+async def on_member_join(member):
+    print(f"{member.name} joined.")
+    if "twitter" in member.name.lower():
+        channel = await client.get_channel(757687250635980933)
+        await channel.send("Banning that stupid H0nde cunt for the millionth time!")
+        await member.ban()
+
 client.run(TOKEN)
