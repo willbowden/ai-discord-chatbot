@@ -21,8 +21,9 @@ async def gatherDataset(env, channelID,  beforeID, number):
             filteredMessages.append({"response": messages[i].content, "previous": prevMessages})
     
     print(f"Done. Messages from designated user found: {len(filteredMessages)}")
+    return filteredMessages
     #print(filteredMessages)
-    wbjson.WriteRaw(str(time.time()) + ".json", filteredMessages)
+    #wbjson.WriteRaw(str(time.time()) + ".json", filteredMessages)
 
 
 
